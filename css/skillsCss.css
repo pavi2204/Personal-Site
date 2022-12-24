@@ -1,0 +1,284 @@
+body {
+  background-color: #FFFFFF;
+  margin: 0 0 0 0;
+  /* background-image: url(/background-picture.jpg); */
+  background-color: #181D31;
+  background-size: cover;
+  width: 100%
+}
+
+li {
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar1 {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: transparent;
+  height: 70px;
+  position: 100px;
+  top: 0;
+}
+.navbar-img {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.aboutMe {
+  width:110px;
+  height: 70px;
+  /* text-align: center; */
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  float: right;
+}
+
+.navbar-authorName {
+  display: inline-block;
+  padding: 10px 0 10px 30px;
+  margin: 0;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.navbar-items {
+  float:right;
+  padding: 20px;
+}
+
+.active {
+  width:150px;
+  height: 80px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: transparent;
+  color: #F5EBE0;
+
+}
+
+.active:hover {
+  background-color: transparent;
+}
+
+.navbar-items:hover {
+  transition: 2s;
+  background: linear-gradient(to right, #CF1B39 44%, #CF1DC9 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #16BFFD 0%, #CB3066 51%, #16BFFD 100%);;
+  background-position: right center; /* change the direction of the change here */
+  color: #F5EBE0;
+  text-decoration: none;
+}
+
+
+/* Nav bar ends here */
+
+
+
+/* Beginning of section-2 */
+
+.skills-description {
+  width: 100%;
+  height: 700px;
+}
+
+.skills-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin: 50px 0 30px 40px;
+  color: #F2E5E5;
+  display: inline-block;
+}
+
+.skills-title-comp {
+  /* color: #80489C; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #80489C 0%, #8D72E1 67%, #BA94D1 100%);;
+}
+
+.tech-skills-desc {
+  font-family: 'Handlee', cursive;
+  font-size: 22px;
+  margin-left: 40px;
+  margin-top: 5px;
+  color: #F2E5E5;
+}
+.skill-particles {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-picture {
+  position: absolute;
+  left: 30px;
+  width: 40%;
+}
+
+.skills-picture-1 {
+  width: 90%;
+  border-top: 50%;
+}
+
+.skill-tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 35%;
+  margin-top: 60px;
+}
+
+.skill-tile-ele {
+  flex: 0 0 auto;
+  width: 15%;
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  border: 1.5px solid;
+  border-radius: 10px;
+  border-color: #80489C;
+  /* box-shadow: 1px 1px #8D72E1; */
+}
+
+.tile-size {
+  width: 40%;
+}
+.tile-text {
+  font-family: 'Orbitron', sans-serif;
+  color: #F2E5E5;
+  font-size: 15px;
+}
+
+
+
+
+/* End of Technical Skills section */
+
+
+/* Divider */
+
+.line-style {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.hr-line {
+  background-color: #D23369;
+  height: 5px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.hr-dot {
+  background-color: #D23369;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+
+
+/* courses and certification section */
+
+.courses-n-certs {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.courses-n-certs-pic {
+  display: flex;
+  flex: 0.65 1;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: fit-content;
+}
+
+.course-n-certs-imgalt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 70%;
+  height: 40%;
+}
+
+.couses-n-certs-desc {
+  width: 60%;
+  display: flex;
+  flex: 0.6;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.cert-grid {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cert-col-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  margin: 20px 20px;
+  display: inline-block;
+  background-color: #9C254D;
+  border: 0.8px solid #F06292;
+  font-family: 'Handlee', cursive;
+  font-size: 22px;
+  color: #F2E5E5;
+  border-radius: 10px;
+}
+
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  margin-top: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Handlee', cursive;
+  color: #F2F2F2;
+  font-size: 21px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #181D31;
+  border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: linear-gradient(#F06292, #9C254D, #181D31);
+  border-radius: 10px;
+}
