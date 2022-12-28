@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d24e834f-5397-4e51-bcaa-6d6e7744a718" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Personal-Site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/skillsCss.css" afterDir="false" />
+    <list default="true" id="d24e834f-5397-4e51-bcaa-6d6e7744a718" name="Changes" comment="skill section and landing page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/skillsCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skillsCss.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668632527274</updated>
     </task>
+    <task id="LOCAL-00001" summary="skill section and landing page">
+      <created>1671917692263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671917692263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +67,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="skill section and landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="skill section and landing page" />
   </component>
 </project>

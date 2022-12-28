@@ -8,17 +8,6 @@ body {
   overflow-x: hidden; /*hides horizontal scrollbar*/
 }
 
-li {
-  float: left;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-.mainbody {
-  background-color: #181D31;
-}
 
 .navbar-class {
   background-color: #FFD4B2;
@@ -91,86 +80,88 @@ li a:hover {
   text-decoration: none;
 }
 
-/* Nav bar ends here */
 
+/* Education section */
 
-
-/* Beginning of section-2 */
-
-.skills-description {
-  width: 100%;
-}
-
-.skill-particles {
-  padding-top: 3%;
-}
-
-.skills-title {
+.education-title {
+  padding: 2% 3%;
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
-  margin: 50px 0 30px 40px;
-  color: #F2E5E5;
-  display: inline-block;
-}
-
-.skills-title-comp {
-  /* color: #80489C; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #80489C 0%, #8D72E1 67%, #BA94D1 100%);;
+  display: inline-block;
 }
 
-.tech-skills-desc {
-  font-family: 'Handlee', cursive;
-  font-size: 22px;
-  margin-left: 40px;
-  margin-top: 5px;
-  color: #F2E5E5;
+.education-img {
+  width: 70%;
 }
 
-.skills-picture-1 {
-  width: 90%;
-  border-top: 50%;
+.card-body {
+  background-color: #6D67E4;
 }
 
-.skill-tiles {
+.degree-card {
+  margin: 4% 2%;
+}
+
+.degree-card-header {
+  background-color: #6D67E4;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* position: absolute;
-  left: 35%; */
-  /* margin-top: 60px; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
-.skill-tile-ele {
-  flex: 0 0 auto;
-  width: 15%;
-  border-radius: 3px;
-  font-size: 15px;
-  margin: 10px;
-  padding: 5px;
+.uni-name {
+  color: #F2F2F2;
+  font-family: 'Prosto One', cursive;
+  font-size: 1.5rem;
+  margin-left: 8px;
+}
+
+.degree-name {
+  color: #FF8787;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  font-family: 'Aldrich', sans-serif;
+  margin-left: 8px;
+}
+
+.body-header-title {
+  width: 70%;
+}
+
+.degree-duration {
+  width: 30%;
+  text-align: center;
+}
+
+.duration {
+  color: #F2F2F2;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.content-desc {
+  color: #FAF7F0;
+  font-family: 'Handlee', cursive;
+  font-size: 1rem;
+  margin-left: 8px;
+
+}
+
+.visit-btn {
+  background-color: #6D67E4;
   justify-content: center;
   text-align: center;
-  border: 1.5px solid;
-  border-radius: 10px;
-  border-color: #80489C;
-  /* box-shadow: 1px 1px #8D72E1; */
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
 }
 
-.tile-size {
-  width: 40%;
-}
-.tile-text {
-  font-family: 'Orbitron', sans-serif;
-  color: #F2E5E5;
-  font-size: 15px;
+.visit-btn:hover {
+  background-color: #8D72E1;
 }
 
-
-
-
-/* End of Technical Skills section */
 
 
 /* Divider */
@@ -198,65 +189,6 @@ li a:hover {
   border-radius: 50%;
 }
 
-
-
-/* courses and certification section */
-
-
-#courses-n-cert-section {
-  margin-top: 10%;
-}
-.courses-n-certs {
-  /* width: 100%; */
-  /* display: flex;
-  flex-direction: row-reverse; */
-}
-
-.courses-n-certs-pic {
-  /* display: flex;
-  flex: 0.65 1;
-  flex-direction: row-reverse; */
-  align-items: center;
-  height: fit-content;
-}
-
-.course-n-certs-imgalt {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
-  justify-content: center;
-  width: 100%;
-  /* height: 40%; */
-}
-
-.couses-n-certs-desc {
-  width: 60%;
-  /* display: flex;
-  flex: 0.6; */
-  /* flex-direction: row; */
-  /* align-content: center;
-  flex-wrap: wrap; */
-}
-
-.cert-grid {
-  /* display: flex;
-  flex-direction: column; */
-
-}
-
-.cert-col-1 {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 10px 10px;
-  margin: 20px 20px;
-  display: inline-block;
-  background-color: #9C254D;
-  border: 0.8px solid #F06292;
-  font-family: 'Handlee', cursive;
-  font-size: 22px;
-  color: #F2E5E5;
-  border-radius: 10px;
-}
 
 
 /* Footer */

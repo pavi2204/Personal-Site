@@ -4,8 +4,7 @@ body {
   /* background-image: url(/background-picture.jpg); */
   background-color: #181D31;
   background-size: cover;
-  width: 100%;
-  overflow-x: hidden; /*hides horizontal scrollbar*/
+  overflow-x: hidden;
 }
 
 li {
@@ -14,10 +13,6 @@ li {
 
 li a:hover {
   background-color: #111;
-}
-
-.mainbody {
-  background-color: #181D31;
 }
 
 .navbar-class {
@@ -32,11 +27,9 @@ li a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border-color: rgb(255,102,203);
 }
-
 .home:hover {
   background-color: #DFD3C3;
 }
-
 .navbar1 {
   list-style-type: none;
   margin: 0;
@@ -91,89 +84,85 @@ li a:hover {
   text-decoration: none;
 }
 
-/* Nav bar ends here */
 
+/* Section 2 - author details */
 
-
-/* Beginning of section-2 */
-
-.skills-description {
-  width: 100%;
-}
-
-.skill-particles {
+#welcome-section {
   padding-top: 3%;
 }
 
-.skills-title {
+.workingMan-pic {
+  width: 90%;
+  float: left;
+  position: relative;
+  left: 0px;
+  bottom: 50px;
+}
+
+.intro-body {
   font-family: 'Orbitron', sans-serif;
-  font-size: 50px;
-  margin: 50px 0 30px 40px;
-  color: #F2E5E5;
+  color: white;
+  font-size: 60px;
   display: inline-block;
 }
 
-.skills-title-comp {
-  /* color: #80489C; */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #80489C 0%, #8D72E1 67%, #BA94D1 100%);;
+.welcome-body {
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
-.tech-skills-desc {
+.welcome-body-skillList {
+  color: #FFE15D;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.welcome-body-spanclass {
+  /* background: #121FCF; */
+background: linear-gradient(to right, #16BFFD 0%, #CF1B39 66%, #CF1DC9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.contactMe {
+   background-image: linear-gradient(to right, #16BFFD 0%, #CB3066 51%, #16BFFD 100%);;
+   /* margin: 15px; */
+   padding: 15px 65px;
+   text-decoration: none;
+   transition: 0.7s;
+   background-size: 200% auto;
+   color: white;
+   border-radius: 50px;
+   display: inline-block;
+   border-style: none;
+   margin-top: 3%;
+ }
+
+ .contactMe:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #F5EBE0;
+   text-decoration: none;
+ }
+
+.btn-contactMe {
   font-family: 'Handlee', cursive;
   font-size: 22px;
-  margin-left: 40px;
-  margin-top: 5px;
-  color: #F2E5E5;
+  text-decoration: none;
 }
 
-.skills-picture-1 {
-  width: 90%;
-  border-top: 50%;
-}
-
-.skill-tiles {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* position: absolute;
-  left: 35%; */
-  /* margin-top: 60px; */
-}
-
-.skill-tile-ele {
-  flex: 0 0 auto;
-  width: 15%;
-  border-radius: 3px;
-  font-size: 15px;
-  margin: 10px;
-  padding: 5px;
-  justify-content: center;
-  text-align: center;
-  border: 1.5px solid;
-  border-radius: 10px;
-  border-color: #80489C;
-  /* box-shadow: 1px 1px #8D72E1; */
-}
-
-.tile-size {
-  width: 40%;
-}
-.tile-text {
-  font-family: 'Orbitron', sans-serif;
-  color: #F2E5E5;
-  font-size: 15px;
+.resume-button {
+  text-decoration: none;
+  color: #F5EBE0;
 }
 
 
+/* Line Border */
 
-
-/* End of Technical Skills section */
-
-
-/* Divider */
 
 .line-style {
   display: flex;
@@ -181,7 +170,7 @@ li a:hover {
   align-items: center;
   justify-content: space-evenly;
   height: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .hr-line {
@@ -200,62 +189,32 @@ li a:hover {
 
 
 
-/* courses and certification section */
+/* Section 3 - author desc */
 
 
-#courses-n-cert-section {
-  margin-top: 10%;
+#author-section {
+  padding: 5% 0;
 }
-.courses-n-certs {
-  /* width: 100%; */
-  /* display: flex;
-  flex-direction: row-reverse; */
+.who-am-i {
+  padding-left: 50px;
 }
-
-.courses-n-certs-pic {
-  /* display: flex;
-  flex: 0.65 1;
-  flex-direction: row-reverse; */
-  align-items: center;
-  height: fit-content;
+.who-am-i-title {
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+  color: #EFF5F5;
 }
 
-.course-n-certs-imgalt {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
-  justify-content: center;
-  width: 100%;
-  /* height: 40%; */
-}
-
-.couses-n-certs-desc {
-  width: 60%;
-  /* display: flex;
-  flex: 0.6; */
-  /* flex-direction: row; */
-  /* align-content: center;
-  flex-wrap: wrap; */
-}
-
-.cert-grid {
-  /* display: flex;
-  flex-direction: column; */
-
-}
-
-.cert-col-1 {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 10px 10px;
-  margin: 20px 20px;
-  display: inline-block;
-  background-color: #9C254D;
-  border: 0.8px solid #F06292;
+.who-am-i-desc {
+  color: #EFF5F5;
   font-family: 'Handlee', cursive;
-  font-size: 22px;
-  color: #F2E5E5;
-  border-radius: 10px;
+  font-size: 26px;
+}
+
+.Authpic-resize {
+  width: 65%;
+  border-radius: 100%;
+  align-items: center;
+  margin-top: 70px;
 }
 
 
@@ -273,10 +232,13 @@ li a:hover {
   width: 100%;
 }
 
+
+
+
 /* Scroll bar */
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 8px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -287,5 +249,5 @@ li a:hover {
 /* Handle */
 ::-webkit-scrollbar-thumb {
 background: linear-gradient(#F06292, #9C254D, #181D31);
-  border-radius: 5px;
+  border-radius: 10px;
 }

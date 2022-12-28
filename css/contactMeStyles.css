@@ -8,17 +8,6 @@ body {
   overflow-x: hidden; /*hides horizontal scrollbar*/
 }
 
-li {
-  float: left;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-.mainbody {
-  background-color: #181D31;
-}
 
 .navbar-class {
   background-color: #FFD4B2;
@@ -91,86 +80,130 @@ li a:hover {
   text-decoration: none;
 }
 
-/* Nav bar ends here */
 
 
+/* Conatact me section */
 
-/* Beginning of section-2 */
 
-.skills-description {
-  width: 100%;
-}
-
-.skill-particles {
+.contactSection {
   padding-top: 3%;
 }
-
-.skills-title {
+.contactMe-title {
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
-  margin: 50px 0 30px 40px;
   color: #F2E5E5;
-  display: inline-block;
 }
 
-.skills-title-comp {
-  /* color: #80489C; */
+.title-gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #80489C 0%, #8D72E1 67%, #BA94D1 100%);;
+  display: inline-block;
 }
 
-.tech-skills-desc {
+.img-pos {
+    text-align: center;
+    justify-content: center;
+}
+.contactMe-img {
+  width: 90%;
+
+}
+.contactMe-desc {
+  color: #F2E5E5;
+  font-family: 'Handlee', cursive;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
+.socials {
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #FB2576;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Resume Button */
+
+.resume-button {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.contactMe {
+   background-image: linear-gradient(to right, #16BFFD 0%, #CB3066 51%, #16BFFD 100%);;
+   /* margin: 15px; */
+   padding: 15px 65px;
+   text-decoration: none;
+   transition: 0.7s;
+   background-size: 200% auto;
+   color: white;
+   border-radius: 50px;
+   display: inline-block;
+   border-style: none;
+   margin-top: 3%;
+   justify-content: center;
+ }
+
+ .contactMe:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #F5EBE0;
+   text-decoration: none;
+ }
+
+.btn-contactMe {
   font-family: 'Handlee', cursive;
   font-size: 22px;
-  margin-left: 40px;
-  margin-top: 5px;
-  color: #F2E5E5;
+  text-decoration: none;
 }
 
-.skills-picture-1 {
-  width: 90%;
-  border-top: 50%;
+.resume-button {
+  text-decoration: none;
+  color: #F5EBE0;
 }
-
-.skill-tiles {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* position: absolute;
-  left: 35%; */
-  /* margin-top: 60px; */
-}
-
-.skill-tile-ele {
-  flex: 0 0 auto;
-  width: 15%;
-  border-radius: 3px;
-  font-size: 15px;
-  margin: 10px;
-  padding: 5px;
-  justify-content: center;
-  text-align: center;
-  border: 1.5px solid;
-  border-radius: 10px;
-  border-color: #80489C;
-  /* box-shadow: 1px 1px #8D72E1; */
-}
-
-.tile-size {
-  width: 40%;
-}
-.tile-text {
-  font-family: 'Orbitron', sans-serif;
-  color: #F2E5E5;
-  font-size: 15px;
-}
-
-
-
-
-/* End of Technical Skills section */
 
 
 /* Divider */
@@ -198,65 +231,6 @@ li a:hover {
   border-radius: 50%;
 }
 
-
-
-/* courses and certification section */
-
-
-#courses-n-cert-section {
-  margin-top: 10%;
-}
-.courses-n-certs {
-  /* width: 100%; */
-  /* display: flex;
-  flex-direction: row-reverse; */
-}
-
-.courses-n-certs-pic {
-  /* display: flex;
-  flex: 0.65 1;
-  flex-direction: row-reverse; */
-  align-items: center;
-  height: fit-content;
-}
-
-.course-n-certs-imgalt {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
-  justify-content: center;
-  width: 100%;
-  /* height: 40%; */
-}
-
-.couses-n-certs-desc {
-  width: 60%;
-  /* display: flex;
-  flex: 0.6; */
-  /* flex-direction: row; */
-  /* align-content: center;
-  flex-wrap: wrap; */
-}
-
-.cert-grid {
-  /* display: flex;
-  flex-direction: column; */
-
-}
-
-.cert-col-1 {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 10px 10px;
-  margin: 20px 20px;
-  display: inline-block;
-  background-color: #9C254D;
-  border: 0.8px solid #F06292;
-  font-family: 'Handlee', cursive;
-  font-size: 22px;
-  color: #F2E5E5;
-  border-radius: 10px;
-}
 
 
 /* Footer */
