@@ -98,6 +98,8 @@ body {
 }
 
 .experience-img {
+  justify-content: center;
+  align-items: center;
   width: 90%;
 }
 
@@ -132,6 +134,12 @@ body {
 .exp-role {
   font-family: 'Handlee', cursive;
   color: #F2E5E5;
+}
+
+.exp-col1 {
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
 }
 
 
