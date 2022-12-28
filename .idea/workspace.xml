@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d24e834f-5397-4e51-bcaa-6d6e7744a718" name="Changes" comment="modifying image path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/contactMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/contactMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agile-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/author-pic.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background-picture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactMe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-learning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/education-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jira-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookHere.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sap-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sel-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/working-png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672252038351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modifying image path">
+      <created>1672257545213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672257545213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
