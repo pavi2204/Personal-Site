@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d24e834f-5397-4e51-bcaa-6d6e7744a718" name="Changes" comment="skill section and landing page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/skillsCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skillsCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/finalStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/finalStyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

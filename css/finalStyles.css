@@ -54,6 +54,7 @@ li a:hover {
   font-size: 50px;
   text-align: center;
   color: white;
+
 }
 
 .navbar-items {
@@ -231,9 +232,6 @@ background: linear-gradient(to right, #16BFFD 0%, #CF1B39 66%, #CF1DC9 100%);
   text-align: center;
   width: 100%;
 }
-
-
-
 
 /* Scroll bar */
 
