@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/Files/contactMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/contactMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672257856982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modified index.html">
+      <created>1672258180748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672258180748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
