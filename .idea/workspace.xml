@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24e834f-5397-4e51-bcaa-6d6e7744a718" name="Changes" comment="git static web commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/contactMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/contactMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Files/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676401625127</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="git static web commit">
+      <created>1676402213403</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676402213403</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
